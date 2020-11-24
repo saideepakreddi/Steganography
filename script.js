@@ -45,7 +45,7 @@ function extract(image){
 function doSteganImage() {
   //check that images are loaded
   if (fgImage == null  || ! fgImage.complete()) {
-    alert("Foreground image not loaded");
+    alert("Foreground image not loaded, upload image");
   }
   // clear canvases
   
